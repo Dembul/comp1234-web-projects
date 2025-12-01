@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a basic html page">
+    <meta name="keywords" content="HTML, CSS, webpage">
+    <meta name="author" content="Demet Bulut">
+    <title>My Sample Webpage</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header>
+    <img src="assets/img/college_logo.png" alt="College Logo" style="float: right;">
+    <h1>My College</h1>
+    <nav>
+        <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#campus-life">Campus Life</a></li>
+            <li><a href="#admissions">Admissions</a></li>
+            <li><a href="assigment02-reflection.html">Reflection</a></li>
+            <li><a href="assets/css/main.css">CSS File</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section id="welcome">
+            <h2>Welcome to My College</h2>
+            <p>My College's focus on innovation, research, and academic excellence,and it's leadership faculty.</p>
+            <img src="assets/img/college_image.jpeg" width="89" height="50" alt="College Image">
+
+
+        <h3>Why Choose My College?</h3>
+        <ul class="choose">
+                <li>Get good opportunity</li>
+                <li>Advanced technology classes</li>
+                <li>Teachers who are experts in their field</li>
+                <li>A welcoming and diverse student community </li>
+            </ul>
+            <h3>Apply to My College</h3>
+            <p>Ready to join the My College community? Apply today!</p>
+            <a href="#admissions" class="button">Apply Now</a>
+    </section>
+
+        <section id="academics">
+            <h2>Academics</h2>
+            <p>At My College, we are dedicated to providing a successful academic experience for our students. With different programs and expert faculty, we offer a comprehensive education that prepares students for success in their chosen fields.</p>
+            <h3>You are going to love My College</h3>
+            <ul class="Experience">
+                <li>Small class - excellent experience </li>
+                <li>Great facilities and equipment</li>
+                <li>Students association service</li>
+                <li>Experiential learning, for research,and opportunities</li>
+                <li>Flexible schedule</li>
+                <li>Hands-on learning experiences</li>
+                <li>Last version technology lab class</li>
+                <li>Many different programs and majors to choose from</li>
+                <li>Great teachers who are experts in their field </li>
+                <li>Support services</li>
+            </ul>
+        </section>
+
+    <section id="campus-life">
+
+            <h2>Campus Life</h2>
+            <p> At My College, we are confident that you will have a well-rounded university experience. Our campus offers a wide variety of opportunities for students to develop leadership skills and engage with the community and succeed.</p>
+            <figure style="text-align:center;">
+
+                <img src="assets/img/campus1.jpeg"  width="89" height="50" alt="Campus1">
+                <img src="assets/img/campus2.jpeg"  width="89" height="50" alt="Campus2">
+                <figcaption> Campus life</figcaption>
+
+            </figure>
+
+            <p>We offer a variety of clubs and organizations. Our campus also hosts many events such as cultural festivals and music concerts throughout the year.</p>
+        </section>
+
+
+
+    <section id="admissions">
+        <h2>Admissions</h2>
+        <p>At My College, we believe we have made the admissions process simple for our students. We welcome applications from all students and are committed to building a diverse cultural campus community.</p>
+        <a href="#admissions" class="button"> Apply Now</a>
+
+
+    </section>
+
+<footer>
+   <p> Copyright &copy; Demet Bulut 2023 </p>
+    <br>
+    <a href="#">link to go to top of page</a>
+</footer>
+<br>
+<br>
+<hr>
+        <br>
+
+</main>
+</body>
+</html>

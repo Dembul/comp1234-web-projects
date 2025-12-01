@@ -1,0 +1,41 @@
+// Display a welcome message to the user
+alert('Welcome to my first Javascript program in Comp1234!');
+// Prompt the user for their first name and ask again if length of the first name is empty
+let firstName = '';
+while (firstName == null || firstName.length=== 0) {
+    firstName = prompt('Please enter your first name:');
+}
+// Prompt the user for their last name and make sure it's not empty
+let lastName = '';
+while (lastName == null || lastName.length === 0) {
+    lastName = prompt('Please enter your last name:');
+}
+
+// Prompts the user for the program name, if the user does not enter the default value appears
+let programOfStudy = prompt('Please enter your program name:');
+if (!programOfStudy){
+    programOfStudy = 'Computer System Analyst'
+}
+
+// If year of study is not integer and is smaller than 1 or grater than 3 ask again year of study
+// Prompt the user for their year of study and make sure it's valid
+// Prompt the user for their year of study
+let yearOfStudy = 1;
+let isValidYear = false;
+while (!isValidYear) {
+    let yearInput = prompt('Please enter your year of study (default: 1):');
+    if (yearInput !== null && yearInput !== '' && !isNaN(yearInput)) {
+        yearOfStudy = parseInt(yearInput);
+        isValidYear = yearOfStudy >= 1 && yearOfStudy <= 3;
+    }
+}
+
+// Output the data to the browser
+document.getElementById('full_name').innerHTML = 'Full Name: ' +firstName + '' + lastName;
+document.getElementById('program_of_study').innerHTML = 'Program Name: ' + programOfStudy;
+document.getElementById('year_of_study').innerHTML = 'Year of Study: ' + yearOfStudy;
+
+// Output the data to the console
+console.log('Full Name: ' + firstName + '' + lastName);
+console.log('Program Name: ' + programOfStudy);
+console.log('Year of Study: ' + yearOfStudy);

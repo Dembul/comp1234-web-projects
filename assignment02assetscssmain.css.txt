@@ -1,0 +1,133 @@
+/* General page styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    background-image: linear-gradient(
+        to bottom,
+        #f0f4ff,
+        #d9e4ff
+    );
+    color: #222;
+}
+
+/* Header + navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 50px;
+}
+
+/* Nav menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0051a8;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;  /* a:hover */
+}
+
+nav a:focus {
+    outline: 2px solid #ff9800;  /* a:focus */
+}
+
+/* Space below fixed header */
+main {
+    margin-top: 120px;
+    padding: 20px;
+}
+
+/* Section headings */
+section h2, section h3 {
+    text-align: left;
+}
+
+/* Paragraphs */
+section p {
+    line-height: 1.5;
+}
+
+
+ul.choose li,
+ul.Experience li {
+    padding: 6px 10px;
+}
+
+/* Zebra stripe effect */
+ul.choose li:nth-child(odd),
+ul.Experience li:nth-child(odd) {
+    background-color: #e6f0ff;
+}
+
+ul.choose li:nth-child(even),
+ul.Experience li:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Apply Now button */
+.button {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #0051a8;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid #003f82;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background-color: #003f82;
+}
+
+/* Campus images */
+#campus-life figure img {
+    margin: 0 5px;
+    border: 2px solid #ccc;
+    height: 120px;
+    width: 160px;
+}
+
+/* Footer */
+footer {
+    text-align: center;        /* text-align */
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+}

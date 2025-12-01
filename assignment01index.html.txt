@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Demet Bulut – Web Programming Projects</title>
+    <meta name="description" content="HTML, CSS, and JavaScript projects for COMP1234." />
+    <meta name="keywords" content="HTML, CSS, JavaScript, COMP1234, web development" />
+    <meta name="author" content="Demet Bulut" />
+    <link href="favicon.ico" rel="shortcut icon" />
+</head>
+
+<body>
+<h1>Demet Bulut – Web Programming Projects</h1>
+
+<ol>
+    <li>
+        <a href="assignment01/index.html">
+            Assignment 01 – Profile / Links Page
+        </a>
+    </li>
+
+    
+    <li>
+        <a href="assignment02/index.html">
+            Assignment 02 – College Landing Page
+        </a>
+    </li>
+
+    <li>
+        <a href="assignment03/welcome.html">
+            Assignment 03 – JavaScript Input Validation
+        </a>
+    </li>
+
+    <li>
+        <a href="assets/img/mypicture1.jpg">
+            My Picture (relative path example)
+        </a>
+    </li>
+
+    <li>
+        <a href="assets/css/style.css">
+            Main Stylesheet (relative path example)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://w3schools.com/tags/default.asp">
+            W3Schools – HTML Element Reference
+        </a>
+    </li>
+
+    <li>
+        <a href="https://www.w3schools.com/html/html_examples.asp">
+            W3Schools – HTML Examples
+        </a>
+    </li>
+
+    <li>
+        <a href="https://w3schools.com/html/default.asp">
+            W3Schools – HTML Tutorial
+        </a>
+    </li>
+</ol>
+</body>
+</html>

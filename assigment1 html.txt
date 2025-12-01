@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8" />
+    <title>Template</title>
+    <meta name="description" content="This is a basic HTML template." />
+    <meta name="keywords" content="info keywords" /> <!-- provides search engines a page's content -->
+    <meta name="author" content="Demet Bulut"/>
+    <link href="favicon.ico" rel="shortcut icon" />
+</head>
+
+<body>
+<h1>Name: Demet Bulut </h1>
+<h2> Student ID#: 23566565</h2>
+<h1>Links and References</h1>
+
+<ol>
+    <li>
+        <a href="https://w655655gblearn.com/"
+           >Homepage - (A) https://w3387924.gblearn.com/</a>
+    </li>
+
+    <li>
+        <a href="/assets/img/mypicture1.jpg"
+           >My picture - (r-relative) /assets/img/mypicture1.jpg</a>
+    </li>
+
+    <li>
+        <a href="/assets/css/style.css"
+           >Style CSS - (r-relative) /assets/css/style.css</a>
+    </li>
+
+    <li>
+        <a href="../assignment02">
+            Assigment02 - (doc.-relative)      ../assigment02 </a>
+    </li>
+
+    <li>
+        <a href="/comp1234/assignments/assignment01/assignment01-reflection.html">Assigment01- reflection (r-relative)   /comp1234/assignments/assignment01/assignment01-reflection.html</a>
+    </li>
+
+    <li>
+        <a href="/comp1234/assignments/assignment03/assets">Assignment 03 Folder (r-relative) /comp1234/assignments/assignment03/assets</a>
+    </li>
+
+
+    <li>
+        <a href="../../lab/exercise/wk02/Demet_Bulut_wk02_exercise.html">Lab exercise wk02 (doc.-relative)  ../../lab/exercise/wk02/Demet_Bulut_wk02_exercise.html</a>
+    </li>
+
+
+    <li>
+        <a href="/comp1234/assignments/assignment01/assets/img/">Assignment01 img folder (r-relative)  /comp1234/assignments/assignment01/assets/img/</a>
+    </li>
+
+    <li>
+        <a href="../assignment01/assets/css/">Assignment01 CSS Folder - (doc.- relative)  ../assignment01/assets/css/</a>
+    </li>
+
+<li>
+    <a href="https://w3schools.com/tags/default.asp">
+        W3 School HTML Element Reference - (A)
+        https://w3schools.com/tags/default.asp</a>
+</li>
+
+    <li>
+        <a href="https://www.w3schools.com/html/html_examples.asp"
+           >W3 School HTML examples - (A)
+            https://www.w3schools.com/html/html_examples.asp</a>
+    </li>
+<li>
+    <a href="https://w3schools.com/html/default.asp"
+       >w3 school HTMLTutorial - (A)
+        https://w3schools.com/html/default.asp </a>
+
+</li>
+</ol>
+    <script src="https://my.gblearn.com/js/loadscript.js"></script>
+ </body>
+</html>
+
+
